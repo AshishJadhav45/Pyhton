@@ -1,4 +1,2 @@
-import os 
 
-# for i in range(0,100):
-#     os.rmdir(f"College/days {i+1}")
+# print(p2.name,p2.age) 
