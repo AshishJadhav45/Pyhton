@@ -13,4 +13,6 @@ class cat (Animal):
 
 animals = [dog(), cat()]
 
-for Animal in animals:
+for animal in animals:
+    print(animal.make_sound())
+
