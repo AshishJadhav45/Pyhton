@@ -9,3 +9,4 @@ obj1 = MyClass("john")
 obj2 = MyClass("jane")
 obj1.print_name()
 obj2.print_name()
+

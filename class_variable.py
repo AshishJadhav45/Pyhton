@@ -1,3 +1,4 @@
+#variable class 
 class Myclass:
     class_variable = 0
 
