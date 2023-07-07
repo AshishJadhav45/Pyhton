@@ -1,16 +1,23 @@
-class Animal:
-    def make_sound(self):
-        pass
+class math:
+    def __init__(self, num ):
+        self.num = num 
+
+    def addtoNum(self,n):
+        self.num = self.num + n
+
+    @staticmethod
+    def add(a,b):
+        return a+b
 
 
-class dog(Animal):
-    def make_sound(self):
-        return "woof"
+# result = math.add(5,4)
+# print(result)
 
-class cat (Animal):
-    def make_sound(self):
-        return "Meow"
 
-animals = [dog(), cat()]
+a = math(5)
+print(a.num)
 
-for Animal in animals:
+a.addtoNum(5)
+print(a.num)
+
+print(math.add(5,4))
