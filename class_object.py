@@ -1,3 +1,5 @@
+
+"""
 class Person:
     name = "John" #name is a string variable that is set to "John"
     occupation = "Software Engineer" #occupation is a string variable that is set to "Software Engineer"
@@ -27,3 +29,37 @@ a.info() #this prints the name and occupation of a
 b.info() #this prints the name and occupation of b
 c.info() #this prints the name and occupation of c
 d.info() #this prints the name and occupation of d
+
+
+
+
+
+"""
+
+
+# class person:
+#     name = "Neo"
+#     occupation = "software engineer"
+#     networth = 1000000
+
+#     def info(self):
+#         print(f"{self.name} is a {self.occupation}")
+
+# a = person()
+# a.name = "Neo"
+# a.occupation = "hacker"
+# a.networth = 10000000
+
+# a.info()
+
+class person:
+    def __init__(self, name , age):
+        self.name = name
+        self.age = age
+    def info(self):
+        print(f"{self.name} is {self.age} years old")
+
+a = person("sachin", 45)
+b = person("virat", 32)
+a.info()
+b.info()
